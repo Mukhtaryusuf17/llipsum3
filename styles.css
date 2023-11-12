@@ -1,0 +1,119 @@
+
+  body{
+      font-family: 'OpenSans',Arial,sans-serif;
+      text-align: center;
+      padding: 0;
+      font-size: 15px;
+      margin-top: 160px;
+      margin-bottom:160px ;
+      padding-left: 149px;
+      padding-right: 150px;
+      
+     
+    }
+    input, textarea {
+      font-size: 14px;
+      font-family: 'OpenSans',Arial,sans-serif;
+      border-radius: 2px;
+  }
+  
+  input{
+      width: 30px;
+      text-align: center;
+      padding: 3px 5px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: #807c7c #ccc #ccc #807c7c;
+  }
+
+  @font-face {
+    font-family: Dauphin;
+    src: url(Dauphin.ttf);
+  }
+  
+  @font-face {
+      font-family: OpenSans;
+      src: url(OpenSans.ttf);
+    }
+  
+    a.anchor{
+      font-family: serif;
+      font-size: 13px;
+      color: black;
+      padding-left: 3px;
+      padding-right: 3px;
+      
+    }
+    a.anchor:hover{
+      color: orangered;
+    }
+    a.red{color: red;
+      font-weight: bold;
+  }
+    h1, h5{
+      font-size: 70px;
+      line-height: 90px;
+      font-family: Dauphin;
+      font-weight: 300;
+      margin: 0;
+    }
+    hr{
+      opacity: 0.9;
+      
+    }
+    a.menu{padding: 9px;
+    color: black;
+  }
+  a.menu:hover{
+    color: red;
+  }
+    .para1{
+      font-weight: 400;  
+      font-size: 13px;
+      line-height: 18px;
+      text-align: center;
+      font-style: italic;
+    
+    }
+    .mukh{
+      font-size: 12px;
+      line-height: 13px;
+      text-align: center;
+      opacity: 0.8;
+    }
+    h5{
+      font-size: 25px;
+      text-align: left;
+      margin-bottom: 10px;
+      font-weight: 300;
+      line-height: 24px;
+    }
+    .grid{
+      display:grid;
+    grid-template-columns: auto auto;
+    }
+    .grid2{
+      text-align: justify;
+      padding: 33px;
+    }
+   
+    .make{
+    text-align:justify;
+    margin: 0px opx 15px;
+
+    }
+    .make .h5{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    @media (max-width: 1150px) {
+      body {
+      padding: 0;
+      }
+      }
+    .new{
+       margin-top: 150px;
+          }
+          table{
+            width: 100px;
+          }
+          
